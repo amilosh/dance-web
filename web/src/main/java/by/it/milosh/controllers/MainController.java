@@ -16,6 +16,18 @@ public class MainController {
 
     @RequestMapping(value = {"/count"}, method = RequestMethod.POST)
     public String count(@RequestParam("numbers") String numbers, @RequestParam("platformSize") String platformSize) {
+        /* разбиваю строку на слова */
+        String[] words = numbers.split("\\s");
+
+        /* слова типа String перекодирую в int и заношу в массив */
+        int[] intNumbers = new int[words.length];
+        for (int i = 0; i < intNumbers.length; i++) {
+            intNumbers[i] = Integer.parseInt(words[i]);
+        }
+
+         /* перекодирую длину платформы из String в int */
+        int intPlatformSize = Integer.parseInt(platformSize);
+
         return "main";
     }
 
