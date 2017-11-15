@@ -1,0 +1,15 @@
+body {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 18px;
+}
+
+.wrapper {
+    margin: 200px auto 0px;
+    width: 440px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.wrapper form div {
+    margin-bottom: 20px;
+}

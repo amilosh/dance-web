@@ -8,10 +8,11 @@
 <html>
 <head>
     <title>Main page</title>
+    <link rel="stylesheet" href="${contextPath}/resources/css/main.css">
 </head>
 <body>
 
-<div>
+<div class="wrapper">
     <form method="post" action="/count">
         <div>
             <span>Введите числа через пробел: </span><input type="text" name="numbers"/>
