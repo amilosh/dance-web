@@ -23,6 +23,14 @@
             <input type="submit" value="Отправить"/>
         </div>
     </form>
+
+    <c:choose>
+        <c:when test="${numberOfSteps != null}">
+            <div>
+                <span>Количество шагов равно: <b>${numberOfSteps}</b></span>
+            </div>
+        </c:when>
+    </c:choose>
 </div>
 
 </body>
