@@ -12,7 +12,17 @@
 <body>
 
 <div>
-    <span>Hello, World!</span>
+    <form method="post" action="/count">
+        <div>
+            <span>Введите числа через пробел: </span><input type="text" name="numbers"/>
+        </div>
+        <div>
+            <span>Введите размер площадки: </span><input type="text" name="platformSize"/>
+        </div>
+        <div>
+            <input type="submit" value="Отправить"/>
+        </div>
+    </form>
 </div>
 
 </body>
