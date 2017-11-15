@@ -56,6 +56,7 @@ public class MainController {
                     step = step + intNumbers[i];
                 } else if ((point - intNumbers[i]) < leftBorder) {
                     int newStep = point - leftBorder;
+                    step = step + newStep;
                     point = leftBorder;
                 }
             }

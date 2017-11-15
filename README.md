@@ -3,6 +3,12 @@ The program for calculating the steps of a dancer in a dance tournament.
 
 ## Tasks
 1. Initialization of the project.
+2. Create simple web-project with one controller method and one jsp.
+3. Create form for data entry.
+4. Parsing data from form.
+5. Logic for calculating the number of steps.
+6. Added styles.
+7. Mistake correction in logic.
 
 ## Stack of technologies
 1. Project: **single-layer** architecture.
